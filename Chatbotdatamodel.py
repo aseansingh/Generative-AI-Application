@@ -4,7 +4,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 from langchain_community.llms import Cohere
 
-os.environ["COHERE_API_KEY"] = "QTl4jayogr7OjDxTUn0b5eVGdC8fzBgcTlZlJzz1"
+os.environ["COHERE_API_KEY"] = "XYZ"
 
 llm = Cohere(
     model="command",
