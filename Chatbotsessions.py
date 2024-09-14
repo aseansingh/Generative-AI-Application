@@ -9,7 +9,7 @@ from typing import Any, List, Mapping, Optional
 import streamlit as st
 from pydantic import Field
 
-cohere_api_key = 'QTl4jayogr7OjDxTUn0b5eVGdC8fzBgcTlZlJzz1'
+cohere_api_key = 'XYZ'
 co = cohere.Client(cohere_api_key)
 
 
