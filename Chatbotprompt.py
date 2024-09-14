@@ -2,7 +2,7 @@ import cohere
 from langchain_core.prompts import PromptTemplate, ChatPromptTemplate, HumanMessagePromptTemplate
 from langchain_core.messages import HumanMessage, SystemMessage
 
-cohere_api_key = 'QTl4jayogr7OjDxTUn0b5eVGdC8fzBgcTlZlJzz1'
+cohere_api_key = 'XYZ'
 co = cohere.Client(cohere_api_key)
 
 class CohereModel:
