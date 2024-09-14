@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-COHERE_API_KEY = os.getenv('COHERE_API_KEY', 'QTl4jayogr7OjDxTUn0b5eVGdC8fzBgcTlZlJzz1')
+COHERE_API_KEY = os.getenv('COHERE_API_KEY', 'XYZ')
 
 if not COHERE_API_KEY:
     print("Error: COHERE_API_KEY environment variable not found.")
