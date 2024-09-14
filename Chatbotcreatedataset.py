@@ -8,8 +8,8 @@ unique_id = uuid4().hex[0:8]
 
 os.environ["LANGCHAIN_TRACING_V2"] = os.getenv("LANGCHAIN_TRACING_V2", "true")
 os.environ["LANGCHAIN_ENDPOINT"] = os.getenv("LANGCHAIN_ENDPOINT", "https://api.smith.langchain.com")
-os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY", "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")
-os.environ["COHERE_API_KEY"] = os.getenv("COHERE_API_KEY", "QTl4jayogr7OjDxTUn0b5eVGdC8fzBgcTlZlJzz1")
+os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY", "XYZ")
+os.environ["COHERE_API_KEY"] = os.getenv("COHERE_API_KEY", "XYZ")
 
 tracing_v2 = os.getenv("LANGCHAIN_TRACING_V2")
 endpoint = os.getenv("LANGCHAIN_ENDPOINT")
