@@ -15,7 +15,7 @@ load_dotenv()
 
 PDF_DOCS_DIRECTORY = "./pdf-docs"
 PERSIST_DIRECTORY = "./chromadb"
-COHERE_API_KEY = "QTl4jayogr7OjDxTUn0b5eVGdC8fzBgcTlZlJzz1"
+COHERE_API_KEY = "XYZ"
 
 if not COHERE_API_KEY:
     print("Error: COHERE_API_KEY environment variable not found or empty.")
