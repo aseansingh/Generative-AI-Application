@@ -13,9 +13,9 @@ unique_id = uuid4().hex[0:8]
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = f"Test111 - {unique_id}"
 os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = "XYZ"
 
-COHERE_API_KEY = os.getenv('COHERE_API_KEY', 'QTl4jayogr7OjDxTUn0b5eVGdC8fzBgcTlZlJzz1')
+COHERE_API_KEY = os.getenv('COHERE_API_KEY', 'XYZ')
 
 if not COHERE_API_KEY:
     print("Error: COHERE_API_KEY environment variable not found.")
